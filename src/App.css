@@ -1,0 +1,41 @@
+#root {
+  width: 700px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.schedule-container{
+  flex-direction: column;
+  display: flex;
+}
+
+.room{
+  display: flex;
+  color:#FFFFFF;
+}
+.time{
+  display: flex;
+  background-color: #264648;
+  width: 35%;
+  justify-content: center;
+  font-size: 1.1rem;
+}
+.class{
+  background-color: #3C6E71;
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+
+}
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.room-container{
+  display: flex;
+  background-color: #353535;
+  width: 30%;
+  justify-content: center;
+}
